@@ -323,8 +323,10 @@ def main():
 	while True:
 		bots = (random.randint(3250,4150))
 		sys.stdout.write("\x1b]2;Remark. | Devices: [{}] | Spoofed Servers [19] | Server Units [8] | Clients: [18]\x07".format (bots))
-		 sin = input("┌──(root💀kali)-[/home/kali/RemarkV1]
-└─# ".format(nicknm)).lower()
+		 sin = input
+         
+         ("┌──(root💀kali)-[/home/kali/RemarkV1]
+           └─# ").lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
 			os.system ("clear")
