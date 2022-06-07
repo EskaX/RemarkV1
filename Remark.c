@@ -58,16 +58,14 @@ token = """
 """
 
 attak = """
- ╔═════════════════════════════╗
- ║    Attack has successfully  ╚════════════════════════════════╗
- ║           Been sent         ║			Made by			    ║
- ║For attack info see other box║       Eskax  &   Flippy        ║
- ╚══════════════════════════╗══╝                                ║
-			                ║                 ╔═════════════════════════════════════╗
-			                ║                 ║     Network Percentaged Uses:0.4%   ║
-			                ╚═════════════════╝     Bandwith Used: 6-7%             ║
-			                                  ║ Attack Succesfully timed out target ║
-			                                  ╚═════════════════════════════════════╝
+			  ╔═════════════════════════════════════╗
+			  ║    Attack has been sucessfully sent ║            
+			  ╚═════════════════════════════════════╝
+			  ╔═════════════════════════════════════╗
+			  ║        This Attack has been         ║
+			  ║    Succesfull in timing out target  ║
+			  ║    ===============================  ║
+			  ╚═════════════════════════════════════╝
 
 """
 
